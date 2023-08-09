@@ -16,9 +16,10 @@ body{
 header{
     background-color: rgb(175, 22, 22);
     height: 15vh;
+    min-height: 50px;
 }
-header picture img{
-    padding: 15px 30px 0px 150px;
+#logo img{
+    padding: 2vw 7vw 0 2vw;
 }
 nav{
     max-width: 950px;
@@ -48,8 +49,29 @@ nav a:hover{
     color: rgb(255, 230, 0);
 }
 
-@media (max-width){
+#menu_mobile{
+    display: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#menu_mobile div{
+    background-color: white;
+    width: 30px;
+    height: 5px;
+    margin-top: 5px;
+}
+
+@media (max-width:950px){
     nav ul{
         display: none;
+        transform: translate(100%);
+    }
+    #menu_mobile{
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
