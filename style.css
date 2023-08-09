@@ -15,11 +15,10 @@ body{
 }
 header{
     background-color: rgb(175, 22, 22);
-    height: 15vh;
-    min-height: 50px;
 }
 #logo img{
-    padding: 2vw 7vw 0 2vw;
+    height: 25vh;
+    padding: 0px 100px 0px 20px;
 }
 nav{
     max-width: 950px;
@@ -63,7 +62,7 @@ nav a:hover{
     margin-top: 5px;
 }
 
-@media (max-width:950px){
+@media (max-width:1000px){
     nav ul{
         display: none;
         transform: translate(100%);
