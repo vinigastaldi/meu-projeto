@@ -17,8 +17,8 @@ header{
     background-color: rgb(175, 22, 22);
 }
 #logo img{
-    height: 25vh;
-    padding: 0px 100px 0px 20px;
+    height: 100%;
+    padding: 0 10vw ;
 }
 nav{
     max-width: 950px;
