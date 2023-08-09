@@ -17,12 +17,11 @@ header{
     background-color: rgb(175, 22, 22);
 }
 #logo img{
-    height: 100%;
-    padding: 0 10vw ;
+    width: 100%;
+    min-width: 200px;
 }
 nav{
     max-width: 950px;
-    height: 15vh;
     display: flex;
     justify-content: space-around;
 }
@@ -53,10 +52,12 @@ nav a:hover{
     width: 30px;
     height: 30px;
     cursor: pointer;
+    position: relative;
+    transform: translateY(170%);
 }
 
 #menu_mobile div{
-    background-color: white;
+    background-color: #fff;
     width: 30px;
     height: 5px;
     margin-top: 5px;
@@ -68,9 +69,7 @@ nav a:hover{
         transform: translate(100%);
     }
     #menu_mobile{
-        display: inline-block;
+        display: block;
         position: relative;
-        top: 50%;
-        transform: translateY(-50%);
     }
 }
