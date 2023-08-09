@@ -28,7 +28,8 @@ header{
     
 }
 nav{
-    height: 14vh;
+    height: 13vh;
+    min-height: 80px;
     max-width: 950px;
     display: flex;
     justify-content: space-around;
