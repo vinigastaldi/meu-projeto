@@ -172,10 +172,41 @@ nav{
     background-color: rgb(233, 157, 149);
 }
 
-#mos_mel{
-    background-color: rgb(255, 255, 66);
+#pim{
+    background-color: darkred;
 }
 
 footer{
     margin-top: 300px;
+}
+
+#contato{
+    background-color: rgb(175, 22, 22);
+    padding: 10px 30px;
+}
+
+#contato #link a{
+    display: flex;
+    margin: 10px 0px;
+    font: normal 1.2em arial, sans-serif;
+    color: black;
+    line-height: 35px;
+    width: 200px;
+}
+
+#contato img{
+    border-radius: 50%;
+    border: solid 2.5px black;
+    margin-right: 10px;
+}
+
+#cantato p{
+    line-height: 40px;
+}
+footer #credito{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font: small-caps .9em arial;
 }
